@@ -1,0 +1,527 @@
+# Usermode translation to Georgian
+# Copyright (C) 2022, Red Hat Inc.
+# This file is distributed under the same license as the usermode package.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: usermode\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-07 08:31+0200\n"
+"PO-Revision-Date: 2022-09-07 10:55+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#.
+#. * Copyright (C) 2001 Red Hat, Inc.
+#. *
+#. * This is free software; you can redistribute it and/or modify it
+#. * under the terms of the GNU General Public License as published by
+#. * the Free Software Foundation; either version 2 of the License, or
+#. * (at your option) any later version.
+#. *
+#. * This program is distributed in the hope that it will be useful, but
+#. * WITHOUT ANY WARRANTY; without even the implied warranty of
+#. * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. * General Public License for more details.
+#. *
+#. * You should have received a copy of the GNU General Public License
+#. * along with this program; if not, write to the Free Software
+#. * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#. * MA  02110-1301, USA.
+#.
+#. Just a dummy file for gettext, containing messages emmitted by various
+#. * commonly-used PAM modules.
+#: ../dummy.h:22
+msgid "OK"
+msgstr "დიახ"
+
+#: ../dummy.h:23
+msgid "Exit"
+msgstr "გასვლა"
+
+#: ../dummy.h:24
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: ../dummy.h:25
+msgid "Run Unprivileged"
+msgstr "პრივილეგიების გარეშე გაშვება"
+
+#: ../dummy.h:26
+msgid "(current) UNIX password: "
+msgstr "(მიმდინარე) UNIX პაროლი: "
+
+#: ../dummy.h:27
+msgid "New UNIX password: "
+msgstr "ახალი UNIX პაროლი: "
+
+#: ../dummy.h:28
+msgid "Retype new UNIX password: "
+msgstr "გაიმეორეთ ახალი UNIX პაროლი: "
+
+#: ../dummy.h:29
+msgid "BAD PASSWORD: it's WAY too short"
+msgstr "ცუდი პაროლი: ძალიან მოკლეა"
+
+#: ../dummy.h:30
+msgid "BAD PASSWORD: it is too short"
+msgstr "ცუდი პაროლი: მოკლეა"
+
+#: ../dummy.h:31
+msgid "Password unchanged"
+msgstr "პაროლი უცვლელია"
+
+#: ../dummy.h:32
+msgid "Sorry, passwords do not match"
+msgstr "პაროლები არ ემთხვევა"
+
+#: ../dummy.h:33
+msgid "Launch system-wide configuration tools without a password."
+msgstr "გაუშვით მთელი სისტემის მორგების ხელსაწყოები პაროლის გარეშე."
+
+#: ../dummy.h:34
+msgid "login: "
+msgstr "მომხმარებლის სახელი: "
+
+#: ../dummy.h:35
+msgid "Password: "
+msgstr "პაროლი: "
+
+#: ../gsmclient.c:367
+#, c-format
+msgid "%s failed to connect to the session manager: %s\n"
+msgstr "%s-ის შეცდომა სესიების მმართველთან მიერთებისას: %s\n"
+
+#: ../pam-panel-icon.c:90
+#, c-format
+msgid "Failed to drop administrator privileges: %s"
+msgstr "ადმინისტრატორის პრივილეგიების მოცილების შეცდომა: %s"
+
+#: ../pam-panel-icon.c:99
+#, c-format
+msgid ""
+"Failed to drop administrator privileges: pam_timestamp_check returned "
+"failure code %d"
+msgstr ""
+"ადმინისტრატორის პრივილეგიების მოცილების შეცდომა: pam_timestamp_check-მა "
+"შეცდომის კოდი %d დააბრუნა"
+
+#: ../pam-panel-icon.c:147
+msgid ""
+"You're currently authorized to configure system-wide settings (that affect "
+"all users) without typing the administrator password again. You can give up "
+"this authorization."
+msgstr ""
+"თქვენ ახლა ავტორიზებული ბრძანდებით, მთელი სისტემის პარამეტრები (რომლებიც "
+"ყველა მომხმარებელს ეხება) შეცვალოთ, ადმინისტრატორის პაროლის ხელახლა აკრეფის "
+"საჭიროების გარეშე. ეს ავტორიზაცია შეგიძლიათ გააუქმოთ."
+
+#: ../pam-panel-icon.c:152 ../pam-panel-icon.c:179
+msgid "Keep Authorization"
+msgstr "ავტორიზაციის შენარჩუნება"
+
+#: ../pam-panel-icon.c:155 ../pam-panel-icon.c:186
+msgid "Forget Authorization"
+msgstr "ავტორიზაციის დავიწყება"
+
+#: ../pam-panel-icon.c:286
+msgid "pam_timestamp_check is not setuid root"
+msgstr "pam_timestamp_check-ი setuid root არაა"
+
+#: ../pam-panel-icon.c:290
+msgid "no controlling tty for pam_timestamp_check"
+msgstr "tty-ის მაკონტროლებელი pam_timestamp_check-ის გარეშე"
+
+#: ../pam-panel-icon.c:294
+msgid "user unknown to pam_timestamp_check"
+msgstr "pam_timestamp_check-სთვის მომხმარებელი უცნობია"
+
+#: ../pam-panel-icon.c:298
+msgid "permissions error in pam_timestamp_check"
+msgstr "pam_timestamp_check-ის წვდომების შეცდომა"
+
+#: ../pam-panel-icon.c:302
+msgid "invalid controlling tty in pam_timestamp_check"
+msgstr "pam_timestamp_check-ში არასწორი მაკონტროლებელი tty"
+
+#: ../pam-panel-icon.c:320
+#, c-format
+msgid "Error: %s\n"
+msgstr "შეცდომა: %s\n"
+
+#: ../pam-panel-icon.c:385
+#, c-format
+msgid "Failed to run command \"%s\": %s\n"
+msgstr "ბრძანების (\"%s\") გაშვების შეცდომა: %s\n"
+
+#: ../pam-panel-icon.c:397
+#, c-format
+msgid "Failed to set IO channel nonblocking: %s\n"
+msgstr "I/O არხის დაუბლოკავად დაყენების შეცდომა: %s\n"
+
+#: ../pam-panel-icon.c:477
+#, c-format
+msgid "pam-panel-icon: failed to connect to session manager\n"
+msgstr "pam-panel-icon: სესიის მმართველთან მიერთების შეცდომა\n"
+
+#: ../userhelper-messages.c:30
+msgid "Information updated."
+msgstr "ინფორმაცია განახლდა."
+
+#: ../userhelper-messages.c:33
+msgid ""
+"The password you typed is invalid.\n"
+"Please try again."
+msgstr ""
+"თქვენს მიერ აკრეფილი პაროლი არასწორია.\n"
+"კიდევ სცადეთ."
+
+#: ../userhelper-messages.c:38
+msgid ""
+"One or more of the changed fields is invalid.\n"
+"This is probably due to either colons or commas in one of the fields.\n"
+"Please remove those and try again."
+msgstr ""
+"ერთი ან მეტი შეცვლილი ველი არასწორია.\n"
+"ეს ალბათ ველის შემცველობაში წერტილების და მძიმეების არსებობის ბრალია.\n"
+"წაშალეთ ისინი და თავიდან სცადეთ."
+
+#: ../userhelper-messages.c:43
+msgid "Password resetting error."
+msgstr "პაროლის თავიდან დაყენების შეცდომა."
+
+#: ../userhelper-messages.c:46
+msgid ""
+"Some systems files are locked.\n"
+"Please try again in a few moments."
+msgstr ""
+"ზოგიერთი სისტემური ფაილები დაბლოკილია.\n"
+"ცოტა ხანში თავიდან სცადეთ."
+
+#: ../userhelper-messages.c:49
+msgid "Unknown user."
+msgstr "უცნობი მომხმარებელი."
+
+#: ../userhelper-messages.c:50
+msgid "Insufficient rights."
+msgstr "არასაკმარისი უფლებები."
+
+#: ../userhelper-messages.c:51
+msgid "Invalid call to subprocess."
+msgstr "ქვეპროცესის არასწორი გამოძახება."
+
+#: ../userhelper-messages.c:54
+msgid ""
+"Your current shell is not listed in /etc/shells.\n"
+"You are not allowed to change your shell.\n"
+"Consult your system administrator."
+msgstr ""
+"თქვენი მიმდინარე გარსი /etc/shells ფალის სიაში აღმოჩენილი არაა.\n"
+"თქვენ არ გაქვთ უფლება, თქვენი გარსი შეცვალოთ.\n"
+"თქვენს სისტემურ ადმინისტრატორს მიმართეთ."
+
+#. well, this is unlikely to work, but at least we tried...
+#: ../userhelper-messages.c:59
+msgid "Out of memory."
+msgstr "არასაკმარისი მეხსიერება."
+
+#: ../userhelper-messages.c:60
+msgid "The exec() call failed."
+msgstr "\"exec()\"-ის გამოძახების შეცდოა."
+
+#: ../userhelper-messages.c:61
+msgid "Failed to find selected program."
+msgstr "არჩეული პროგრამის მოძებნა შეუძლებელია."
+
+#. special no-display dialog
+#: ../userhelper-messages.c:63
+msgid "Request canceled."
+msgstr "მოთხოვნა გაუქმებულია."
+
+#: ../userhelper-messages.c:64
+msgid "Internal PAM error occured."
+msgstr "PAM-ის შიდა შეცდომა."
+
+#: ../userhelper-messages.c:65
+msgid "No more retries allowed"
+msgstr "მეტჯერ ვეღარ ცდით"
+
+#: ../userhelper-messages.c:66
+msgid "Unknown error."
+msgstr "უცნობი შეცდომა."
+
+#. First entry is default
+#: ../userhelper-messages.c:68
+msgid "Unknown exit code."
+msgstr "გამოსვლის უცნობი კოდი."
+
+#: ../userhelper-wrap.c:475
+msgid "Query"
+msgstr "მოთხოვნა"
+
+#: ../userhelper-wrap.c:534 ../userhelper.c:612
+#, c-format
+msgid "Authenticating as \"%s\""
+msgstr "ავთენტიკაცია, როგორც \"%s\""
+
+#: ../userhelper-wrap.c:553 ../userhelper-wrap.c:693
+msgid "Error"
+msgstr "შეცდომა"
+
+#: ../userhelper-wrap.c:553
+msgid "Information"
+msgstr "ინფორმაცია"
+
+#: ../userhelper-wrap.c:718
+msgid "Changing password."
+msgstr "პაროლის შეცვლა."
+
+#: ../userhelper-wrap.c:720
+msgid "Changing personal information."
+msgstr "პირადი ინფორმაციის შეცვლა."
+
+#: ../userhelper-wrap.c:723
+msgid "Changing login shell."
+msgstr "შესვლის გარსის შეცვლა."
+
+#: ../userhelper-wrap.c:727
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"ცდლობთ გაუშვათ \"%s\", რომელსაც შეუძლია ადმინისტრირების პრივილეგიებით "
+"ისარგებლოს. მაგრამ ამისთვის მეტი ინფორმაციაა საჭირო."
+
+#: ../userhelper-wrap.c:729
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative privileges, "
+"but more information is needed in order to do so."
+msgstr ""
+"ცდლობთ გაუშვათ \"%s\", რომელსაც ადმინისტრირების პრივილეგიები სჭირდება. "
+"მაგრამ ამისთვის მეტი ინფორმაციაა საჭირო."
+
+#: ../userhelper-wrap.c:733
+msgid ""
+"You are attempting to run a command which may benefit from administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"ცდლობთ გაუშვათ ბრძანება, რომელსაც შეუძლია ადმინისტრირების პრივილეგიებით "
+"ისარგებლოს. მაგრამ ამისთვის მეტი ინფორმაციაა საჭირო."
+
+#: ../userhelper-wrap.c:735
+msgid ""
+"You are attempting to run a command which requires administrative "
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"ცდლობთ გაუშვათ ბრძანება, რომელსაც ადმინისტრირების პრივილეგიები სჭირდება. "
+"მაგრამ ამისთვის მეტი ინფორმაციაა საჭირო."
+
+#: ../userhelper-wrap.c:772
+msgid "_Run Unprivileged"
+msgstr "პრივილეგიების გარეშე _გაშვება"
+
+#: ../userhelper-wrap.c:919
+#, c-format
+msgid "Pipe error.\n"
+msgstr "ფაიფის შეცდომა.\n"
+
+#: ../userhelper-wrap.c:926
+#, c-format
+msgid "Cannot fork().\n"
+msgstr "\"fork()\"-ის შეცდომა.\n"
+
+#: ../userhelper-wrap.c:950
+#, c-format
+msgid "Can't set binary encoding on an IO channel: %s\n"
+msgstr "IO არხზე ბინარული კოდირების დაყენების შეცდომა: %s\n"
+
+#: ../userhelper-wrap.c:1021 ../userhelper-wrap.c:1025
+#, c-format
+msgid "dup2() error.\n"
+msgstr "dup2() შეცდომა.\n"
+
+#: ../userhelper-wrap.c:1036
+#, c-format
+msgid "execl() error, errno=%d\n"
+msgstr "execl() შეცდომა, errno=%d\n"
+
+#: ../userhelper.c:594
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which may benefit from administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"ცდლობთ გაუშვათ \"%s\", რომელსაც შეუძლია ადმინისტრირების \n"
+"პრივილეგიებით ისარგებლოს. მაგრამ ამისთვის მეტი ინფორმაციაა საჭირო."
+
+#: ../userhelper.c:596
+#, c-format
+msgid ""
+"You are attempting to run \"%s\" which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"ცდლობთ გაუშვათ \"%s\", რომელსაც ადმინისტრირების \n"
+"პრივილეგიები სჭირდება. მაგრამ ამისთვის მეტი ინფორმაციაა საჭირო."
+
+#: ../userhelper.c:600
+#, c-format
+msgid ""
+"You are attempting to run a command which may benefit from\n"
+"administrative privileges, but more information is needed in order to do so."
+msgstr ""
+"ცდლობთ გაუშვათ ბრძანება, რომელსაც შეუძლია ადმინისტრირების \n"
+"პრივილეგიებით ისარგებლოს. მაგრამ ამისთვის მეტი ინფორმაციაა საჭირო."
+
+#: ../userhelper.c:602
+#, c-format
+msgid ""
+"You are attempting to run a command which requires administrative\n"
+"privileges, but more information is needed in order to do so."
+msgstr ""
+"ცდლობთ გაუშვათ ბრძანება, რომელსაც ადმინისტრირების \n"
+"პრივილეგიები სჭირდება. მაგრამ ამისთვის მეტი ინფორმაციაა საჭირო."
+
+#: ../userhelper.c:2341
+#, c-format
+msgid "userhelper must be setuid root\n"
+msgstr "userhelper-ი setuid root უნდა იყოს\n"
+
+#. FIXME: print a warning here?
+#: ../userhelper.c:2433
+#, c-format
+msgid ""
+"Unable to open graphical window, and unable to find controlling terminal.\n"
+msgstr ""
+"გრაფიკული ფანჯრის გახსნის შეცდომა და მაკონტროლებელი ტერმინალის პოვნა "
+"შეუძლებელია.\n"
+
+#: ../userhelper.c:2487 ../userinfo.c:388 ../usermount.c:692 ../usermount.c:701
+#: ../userpasswd.c:41
+#, c-format
+msgid "Unexpected command-line arguments\n"
+msgstr "ბრძანების სტრიქონის მოულოდნელი არგუმენტები\n"
+
+#: ../userinfo.c:412
+#, c-format
+msgid "You don't exist.  Go away.\n"
+msgstr "არ არსებობთ.   წადი და აღარ დაბრუნდე.\n"
+
+#: ../userinfo.desktop.in.h:1
+msgid "About Myself"
+msgstr "ჩემს შესახებ"
+
+#: ../userinfo.desktop.in.h:2
+msgid "Change personal information"
+msgstr "პირადი ინფორმაციის შეცვლა"
+
+#: ../usermode.ui.h:1
+msgid "User Information"
+msgstr "ინფორმაცია მომხმარებელზე"
+
+#: ../usermode.ui.h:2
+msgid "Full Name:"
+msgstr "სრული სახელი:"
+
+#: ../usermode.ui.h:3
+msgid "Office:"
+msgstr "ოფისი:"
+
+#: ../usermode.ui.h:4
+msgid "Office Phone Number:"
+msgstr "ოფისის ტელეფონის ნომერი:"
+
+#: ../usermode.ui.h:5
+msgid "Home Phone Number:"
+msgstr "სახლის ტელეფონის ნომერი:"
+
+#: ../usermode.ui.h:6
+msgid "Login Shell:"
+msgstr "შესვლს გარსი:"
+
+#: ../usermount.c:63
+msgid "_Mount"
+msgstr "_მიმაგრება"
+
+#: ../usermount.c:64
+msgid "Un_mount"
+msgstr "მიმაგრების _მოხსნა"
+
+#: ../usermount.c:152
+msgid "Error loading list of file systems"
+msgstr "ფაილური სისტემების სიის ჩატვირთვის შეცდომა"
+
+#. Create the dialog.
+#: ../usermount.c:153 ../usermount.c:543 ../usermount.c:555
+msgid "User Mount Tool"
+msgstr "მიმაგრების ხელსაწყო მომხმარებლისთვის"
+
+#: ../usermount.c:324
+msgid ""
+"Are you sure you want to format this disk?  You will destroy any data it "
+"currently contains."
+msgstr ""
+"დარწმუნებული ბრძანდებით, რომ გნებავთ, დააფორმატოთ ეს დისკი?  ეს გაანადგურებს "
+"ყველა მონაცემს, რომელიც ის ამჟამად შეიცავს."
+
+#: ../usermount.c:335
+msgid "Perform a _low-level format."
+msgstr "_დაბალი-დონის ფორმატირება."
+
+#: ../usermount.c:372
+msgid "Select a _filesystem type to create:"
+msgstr "აირჩიეთ შესაქმნელი _ფაილური სისტემის ტიპი:"
+
+#: ../usermount.c:542
+msgid ""
+"There are no filesystems which you are allowed to mount or unmount.\n"
+"Contact your administrator."
+msgstr ""
+"ფაილური სისტემები, რომლის მიმაგრების ან მოხსნის უფლებაც გაქვთ, არ არსებობს.\n"
+"დაუკავშირდით ადმინისტრატორს."
+
+#. Create the other buttons.
+#: ../usermount.c:573
+msgid "_Format"
+msgstr "_ფორმატირება"
+
+#: ../usermount.c:609
+msgid "Device"
+msgstr "მოწყობილობა"
+
+#: ../usermount.c:615
+msgid "Directory"
+msgstr "საქაღალდე"
+
+#: ../usermount.c:621
+msgid "Filesystem"
+msgstr "ფაილური სისტემა"
+
+#: ../usermount.c:669
+#, c-format
+msgid "The device '%s' can not be formatted."
+msgstr "მოწყობილობის ფორმატირება შეუძლებელია: %s."
+
+#: ../usermount.desktop.in.h:1
+msgid "Disk Management"
+msgstr "დისკის მართვა"
+
+#: ../usermount.desktop.in.h:2
+msgid "Mount and unmount filesystems"
+msgstr "ფაილური სისტემების მიმაგრება და მოხსნა"
+
+#: ../userpasswd.desktop.in.h:1
+msgid "Password"
+msgstr "პაროლი"
+
+#: ../userpasswd.desktop.in.h:2
+msgid "Change your login password"
+msgstr "შეცვლის თქვენს პაროლს"
